@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+<!--<link rel="icon" href="favicon.ico"> -->
+	
+	<title>Página Principal AAA</title>
+	
+	<link  href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 	<link  href="css/style.css" title="hoja de estilo principal" rel="stylesheet"> 
+
+	<style type="text/css">
+		
+		.card{
+       height: 530px;
+}
+	</style>
+
+</head>
+<body class="home">
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light border-bottom"> <!--bg-light-->
+				<a href="index.html"><img src="img/header-logo.png" class="float-left" alt="Logo width=60" height="60"" ></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse " id="navbarSupportedContent" class="right-block">
+			  	<ul class="navbar-nav ml-auto">
+			  		<li class="nav-item active">
+			        	<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+			      	</li>
+			      	<li class="nav-item ">
+			        	<a class="nav-link" href="login.html">Iniciar Sesión <span class="sr-only">(current)</span></a>
+			      	</li>
+			      	<li class="nav-item">
+			      		<a class="nav-link" href="register.html">Registrarse</a>
+			      	</li>
+			      	
+			    	 <li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Información
+			        	</a>
+			        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			         	 <a class="dropdown-item" href="informacion_de_la_planta.html">Información de la Planta</a>
+			         	 <a class="dropdown-item" href="equipment information.html">Información de Equipos</a>
+			         	 <a class="dropdown-item" href="parametros.html">Parametros Permitidos por EPA</a>
+			          	<div class="dropdown-divider"></div>
+			         	 <a class="dropdown-item" href="next_visit.html">Proximas Visitas</a>
+			        	</div>
+			      	</li>
+			      
+			      	<li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Informes
+			        	</a>
+			        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          	<a class="dropdown-item" href="informe_diario.html">Informes Diario</a>
+			         	<a class="dropdown-item" href="#">Cotejo de Calibración de Equipos</a>
+			         	<a class="dropdown-item" href="procedure_of_routine_operations.html">Procedimeinto - Operación Rutinaria</a>
+			         	<a class="dropdown-item" href="daily_inspection_of_chlorination_equipment.html">Inspección de Equipos de Cloración</a>
+			         	<a class="dropdown-item" href="AAA-48.html">AAA-48</a>
+			         	 <div class="dropdown-divider"></div>
+			         	<a class="dropdown-item" href="#">Informe de Escorrentias</a>
+			          	<div class="dropdown-divider"></div>
+			          	<a class="dropdown-item" href="#">Acceder a la base de datos</a>
+			        	</div>
+			      	</li>
+			      	<li class="nav-item">
+			      		<a class="nav-link" href="contact.html">Contáctos</a>
+			      	</li>
+			     
+			      		<li class="nav-item">
+			      		<a class="nav-link" href="#">Salir</a>
+			      	</li>	
+			    </ul>
+			</div>
+		</nav>
+	</div>
+
+ 
+
+
+	<br>
+	<div class="container">
+		<div class="row ">
+		  <div class="col-sm-6">
+			<div class="card ">
+			  <h5 class="card-header">Planta Alcantarillado en Camuy</h5>
+			  <div class="card-body">
+			  	<br>
+			    <div class="text-center">
+				  <img src="img/clarificador.jpg" class="img-fluid" alt="Logo" width="430" height="430"   alt="...">
+				</div>
+				<br>
+			    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+			    <div class="d-flex justify-content-center">
+			    	<a href="#" class="btn btn-primary align-self-end">Ampliar Imagen</a>	
+			   	 </div>
+			  </div>
+			</div>
+		</div>
+
+		  <div class="col-sm-6">
+			<div class="card">
+			  <h5 class="card-header">Detalles del Equipo</h5>
+			  <div class="card-body">
+			  	<h5 class="card-title Strong">Nombre: Clarificador 101</h5>
+			    <h5 class="card-text">Numero de Equipo: 111111</h5>
+			    <h5 class="card-title">Descripcion: </h5>
+			    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			      <div class="d-flex justify-content-center">
+			    	<a href="#" class="btn btn-primary d-flex align-items-end">Editar Informacion</a>	
+			   	 </div>
+			    
+			  </div>
+			
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<!--<script type="js/bootstrap.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
